@@ -45,5 +45,7 @@ try:
             bot.play_game()
         except Exception as e:
             print(e)
+            input("")
 except Exception as e:
     print (e)
+    input("")
